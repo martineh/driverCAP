@@ -9,4 +9,8 @@ En primer lugar hay que compilar el driver mediante el comando:
 
 make
 
-Una vez compilado, el siguiente paso es fijar desde
+Una vez compilado, el siguiente paso es fijar desde el fichero "run_driver.sh" el tipo de ejecución. En primer lugar se determina el tipo de Test sobre el que se va a evaluar el rendimiento, 
+y en segundo lugar se fija la dificultad. Cada nivel de dificultad corresponde con una técnica diferente de optimización, el objetivo del alumnado es desarrollar su propia rutina que lleve 
+a cabo una GEMM capaz de batir el rendimiento objetivo. 
+
+
